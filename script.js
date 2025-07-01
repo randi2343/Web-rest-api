@@ -17,3 +17,8 @@ window.onload = function () {
     <p><strong>Email:</strong> ${apiData.email}</p>
   `;
 };
+
+
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+}
